@@ -30,7 +30,7 @@ function SignUppage() {
             </div>
 
             <div className="login-field">
-              <input type="email" className="login-input" placeholder="Email or username" required />
+              <input type="email" className="login-input" placeholder="Email" required />
             </div>
 
             <div className="login-field second-part">
