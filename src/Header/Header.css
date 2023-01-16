@@ -1,0 +1,30 @@
+/*************************************************************/
+/***** HEADER  *****/
+/*************************************************************/
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    background: #1b1b1b;
+    position: fixed;
+}
+
+.header span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+/****************************************/
+/***** HEADER - (0px - 768px)  *****/
+/****************************************/
+@media all and (max-width: 768px) {
+    .header {
+        height: 50px;
+    }
+
+    .header span {
+        font-size: 16px;
+    }
+}
