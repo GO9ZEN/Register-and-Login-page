@@ -16,6 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 60px;
   }
 
 h1 {
@@ -183,6 +184,10 @@ p {
     
     p {
         font-size: 10px;
+    }
+
+    .image {
+        margin-top: 50px;
     }
 }
 
